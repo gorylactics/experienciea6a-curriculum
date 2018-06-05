@@ -1,0 +1,168 @@
+html{
+	font-size: 14px;
+}
+body{
+	background-color: #BDBDBD;
+	font-family: 'Open Sans', sans-serif;
+	color:#333;
+	margin: 0 5% 0 5%;
+}
+.container{
+	max-width: 100%;
+	background-color: white;
+	border-radius: 15px;
+}
+
+.colorgris{
+	background-color: #BDBDBD;
+	height: 130px;
+}
+
+
+img{
+	max-width: 250px;
+	border-radius: 50%;
+	border:solid 10px #BDBDBD;
+
+}
+
+.textoinicial{
+	margin-top: 200px;
+	float: left;
+}
+
+h1{
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	border-bottom: solid 2px #BDBDBD;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	color: #f16045;
+	margin-bottom: 2rem;
+}
+
+
+h2::before{
+	content: "// ";
+}
+
+p{
+	margin-bottom: 2rem;
+}
+
+ul{
+	margin-left: 40px;
+	margin-bottom: 2rem;
+}
+
+header{
+	padding-bottom: 10px;
+	margin-bottom: 50px;
+	text-align: center;
+
+}
+/* COLORS */
+.color-orange{
+	color: #f16045;
+
+}
+
+.color-grey{
+	color: #ccc;
+}
+
+/* IDIOMAS*/
+.idioma{
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	padding: 5px;
+	float: left;
+}
+.idioma:: after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.idioma__titulo{
+	width: 50%;
+	float: left;
+}
+.idioma__estrella{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.año{
+	font-weight: bold;
+}
+.cajongris{
+
+	margin: 3px 0 5px 0;
+	background-color: #BDBDBD;
+	border-radius: 5px 5px 5px 5px;
+	
+}
+
+.skills{
+	height: 20px;
+	background-color: #f16045;
+	color:white;
+	font-weight: bold;
+	border-radius: 5px 5px 5px 5px;
+	margin: 3px 0 3px 0;
+	text-transform: uppercase;
+	float: left;
+
+}
+
+.a{
+	max-width: 35%;
+}
+
+.b{
+	max-width: 25%;
+}
+
+.c{
+	max-width: 30%;
+}
+
+.d{
+	max-width: 25%;
+}
+.e{
+	max-width: 35%;
+}
+
+.absoluto{
+	display: block;
+}
+
+.hobbies{
+	width: 30%;
+	height: 22px;
+	background-color: #B40431;
+	color:white;
+	font-weight: bold;
+	border-radius: 5px 5px 5px 5px;
+	margin: 3px 1px 3px 1px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.izquierdo{
+	float: left;
+}
+
+.derecho{
+	float: left;
+}
+
+.footer{
+	margin-top: 20px;
+	text-align: right;
+	margin-left: 9%;
+}
+

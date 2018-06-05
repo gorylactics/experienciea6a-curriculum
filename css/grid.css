@@ -1,0 +1,93 @@
+/* Reset */
+*{
+	padding: 0;
+	margin:0;
+}
+
+/* Contenedor General */
+.container{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	
+
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;}
+
+
+/* Columnas */
+.col{
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+
+@media (min-width: 500px) {
+	.col{
+		float: left;
+	}
+
+	.col-1{
+		width: 8.3%;
+		
+	}
+
+	.col-2{
+		width: 16.6%;
+		
+	}
+
+	.col-3{
+		width: 25%;
+		
+	}
+
+	.col-4{
+		width: 33%;
+		
+	}
+
+	.col-5{
+		width: 41.6%;
+		
+	}
+
+	.col-6{
+		width: 50%;
+		
+	}
+
+	.col-7{
+		width: 58.4%;
+		
+	}
+
+	.col-8{
+		width: 66.6%;
+		
+	}
+
+	.col-9{
+		width: 75%;
+		
+	}
+
+	.col-10{
+		width: 83.4%;
+		
+	}
+
+	.col-11{
+		width: 91.7%;
+		
+	}
+
+	.col-12{
+		width: 100%;
+		
+	}
+
+	
